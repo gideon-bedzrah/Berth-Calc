@@ -1,4 +1,4 @@
-package com.example.berthcalc
+package com.berthstudios.berthcalc
 
 import org.junit.Test
 
