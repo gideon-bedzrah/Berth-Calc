@@ -2,14 +2,10 @@ package com.example.berthcalc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
-
-private val main = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
 
@@ -159,7 +155,7 @@ class MainActivity : AppCompatActivity() {
                 if (active.text.isNotEmpty()) {
 
                     if (active.isFocusable){
-                        var some = active.text.toString().toDouble() * -1
+                        val some = active.text.toString().toDouble() * -1
                         active.text = some.toString()
                     }
                 }
